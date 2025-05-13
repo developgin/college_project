@@ -1,6 +1,43 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
+@font-face {
+  font-family: 'Dutch801 Rm Win95BT';
+  src: url('../fonts/Dutch801BT-BoldItalic.woff2') format('woff2'),
+  url('../fonts/Dutch801BT-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dutch801 Rm Win95BT';
+  src: url('../fonts/Dutch801BT-Italic.woff2') format('woff2'),
+  url('../fonts/Dutch801BT-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dutch801 Rm Win95BT';
+  src: url('../fonts/Dutch801BT-Roman.woff2') format('woff2'),
+  url('../fonts/Dutch801BT-Roman.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dutch801 Rm Win95BT';
+  src: url('../fonts/Dutch801BT-Bold.woff2') format('woff2'),
+  url('../fonts/Dutch801BT-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Dutch801 Rm Win95BT', serif;
+  font-weight: bold;
+  font-style: normal;
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
@@ -165,6 +202,7 @@ a:focus {
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  font-size: 20px;
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
