@@ -30,6 +30,14 @@
     <link href="css/responsive.css" rel="stylesheet" />
     <style>
         .team_section .detail-box p{font-size: 24px; font-weight: bold;}
+        .address-block {
+            margin-top: -50px;
+        }
+        @media (width <= 790px) {
+            .address-block {
+                margin-top: 30px;
+            }
+        }
     </style>
 </head>
 
@@ -91,7 +99,7 @@
 <section class="about_section layout_padding" >
     <div class="container" style="background: url('images/Contacts_us_Graphic.jpg') no-repeat; height: 500px;">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="detail-box">
                     <form action="#">
                         <div class="row">
@@ -124,15 +132,15 @@
                     </form>
                 </div>
             </div>
-            <div class="col-md-3">
-            </div>
             <div class="col-md-6">
-                <div class="detail-box" style="margin-top: 300px; text-align: center; color: #0c0c0c;margin-right: 260px;">
-                    <h3>On :  012345 87568</h3>
-                    <h4>And come visit us at:</h4>
-                    <p>NextGen Services</p>
-                    <p>5 Local Lane</p>
-                    <p>Somewhere, AB12 4EF</p>
+                <div class="row">
+                    <div class="col-md-12 text-center address-block" style="color: #0c0c0c;">
+                        <h3>On :  012345 87568</h3>
+                        <h4>And come visit us at:</h4>
+                        <p>NextGen Services</p>
+                        <p>5 Local Lane</p>
+                        <p>Somewhere, AB12 4EF</p>
+                    </div>
                 </div>
             </div>
         </div>
